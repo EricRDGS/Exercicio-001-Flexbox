@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+body{
+    background-color: #dfffd7;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo{
+    display: flex;
+    font-weight: 800;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    color: #000;
+    align-items: center;
+}
+
+.logo img{
+    height: 42px;
+    margin: 5px;
+}
+
+.menu-de-navegacao ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu-de-navegacao li{
+    margin: 5px;
+    font-size: 15px;
+    font-family: 'Public Sans', sans-serif;
+    padding: 5px;
+}
+
+.menu-de-navegacao a{
+    color: #000;
+    transition: 0.3s ease-in-out;
+    padding: 10px 5px;
+    font-size: 1rem;
+}
+
+.menu-de-navegacao a:hover{
+    background-color: #5BC241;
+}
+
+.menu-de-navegacao .btn{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    background-color: #5BC241;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.menu-de-navegacao a.btn:hover{
+    background-color: #235f13;
+}
+

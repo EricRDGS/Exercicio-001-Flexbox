@@ -1,0 +1,32 @@
+@media(max-width: 860px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .logo h1{
+        font-size: 4rem;
+    }
+
+    .menu-de-navegacao ul{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .menu-de-navegacao li{
+        padding: 15px 0px;
+    }
+
+    .menu-de-navegacao li:last-child{
+        margin-top: 20px;
+    }
+
+    .menu-de-navegacao li a{
+        font-size: 4rem;
+        padding: 17px 40px;
+    }
+
+    .menu-de-navegacao li a.btn{
+        font-size: 1.8rem;
+        padding: 15px 23px;
+    }
+}
